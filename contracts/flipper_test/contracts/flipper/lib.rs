@@ -54,7 +54,7 @@ mod flipper {
         use super::*;
 
         /// Imports `ink_lang` so we can use `#[ink::test]`.
-        use ink_lang as ink;
+        use ink;
 
         /// We test if the default constructor does its job.
         #[ink::test]
